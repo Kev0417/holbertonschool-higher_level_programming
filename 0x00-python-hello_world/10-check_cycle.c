@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "lists.h"
 
 /**
  * check_cycle - function checks if a singly linked list has a cycle in it.
