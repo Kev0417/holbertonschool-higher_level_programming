@@ -7,12 +7,10 @@ writes a string to a text file (UTF8)
 
 
 	def append_write(filename="", text=""):
-	"""function that
+	"""
+	function that
 writes a string to a text file (UTF8)
 	and returns the number of characters written
-	Args:
-	filename (str, optional): path to file. Defaults to "".
-							  text (str, optional): text to write. Defaults to "".
-													"""
-													   with open(filename, encoding="utf-8", mode="a") as a_file:
-																	  return (a_file.write(text))
+	"""
+	with open(filename, encoding="utf-8", mode="a") as a_file:
+return (a_file.write(text))
